@@ -58,7 +58,6 @@ fun PetDescription(pet: PetObj) {
             ) {
                 Text(
                     text = stringResource(id = R.string.label_takemehome),
-
                 )
             }
         }

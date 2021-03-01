@@ -23,10 +23,10 @@ fun NavigationController() {
         }
         composable(Navigation.PupDetails.destination + "/{id}") { backStackEntry ->
             val pupId = backStackEntry.arguments?.getString("id")
-            val pup = PetRepo().getPetById(id = pupId!!)
-                ?: throw IllegalStateException("Doggo not found")
+            val pet = PetRepo().getPetById(id = pupId!!)
+                ?: throw IllegalStateException("Pet not found")
             PetDetails(
-                pet = pup,
+                pet = pet,
                 navigateBack = { navController.popBackStack() }
             )
         }
