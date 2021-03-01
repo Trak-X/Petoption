@@ -1,5 +1,3 @@
-package com.example.androiddevchallenge.ui.components
-
 /*
  * Copyright 2021 The Android Open Source Project
  *
@@ -15,6 +13,7 @@ package com.example.androiddevchallenge.ui.components
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+package com.example.androiddevchallenge.ui.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
