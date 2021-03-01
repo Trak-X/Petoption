@@ -9,5 +9,15 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">AndroidDevChallenge</string>
+    <string name="app_name">PetOption</string>
+    <string name="label_takemehome">Take me home</string>
+
+    <!-- TODO -->
+    <string name="todo_search_pup">Search pupies</string>
+    <string name="todo_search_no_matches">No pup for “%1s”</string>
+    <string name="todo_search_no_matches_retry">Try using more filters</string>
+    <string name="todo_search_count">%1d items</string>
+    <string name="todo_label_search">Search</string>
+    <string name="champion">Choose your champion</string>
+
 </resources>
