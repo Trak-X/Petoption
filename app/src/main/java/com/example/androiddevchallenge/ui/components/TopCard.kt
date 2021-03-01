@@ -36,16 +36,16 @@ fun TopCard(pet: PetObj) {
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier =
-                Modifier
-                    .height(250.dp)
-                    .clip(
-                        RoundedCornerShape(
-                            topStart = CornerSize(0.dp),
-                            topEnd = CornerSize(0.dp),
-                            bottomEnd = CornerSize(20.dp),
-                            bottomStart = CornerSize(20.dp)
-                        )
+            Modifier
+                .height(250.dp)
+                .clip(
+                    RoundedCornerShape(
+                        topStart = CornerSize(0.dp),
+                        topEnd = CornerSize(0.dp),
+                        bottomEnd = CornerSize(20.dp),
+                        bottomStart = CornerSize(20.dp)
                     )
+                )
         )
     }
 }
