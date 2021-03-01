@@ -15,14 +15,14 @@
  */
 package com.example.androiddevchallenge.ui.components
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
@@ -34,17 +34,20 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.androiddevchallenge.R
 import com.example.androiddevchallenge.db.PetObj
 import com.example.androiddevchallenge.db.PetRepo
-import com.example.androiddevchallenge.R
 
 @Composable
 fun PetDescription(pet: PetObj) {
-    Column(modifier = Modifier
-        .fillMaxSize()
-        .padding(
-            start = 10.dp,
-            end = 10.dp)){
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(
+                start = 10.dp,
+                end = 10.dp
+            )
+    ) {
 
         Spacer(modifier = Modifier.height(24.dp))
         Text("About me")
@@ -64,9 +67,10 @@ fun PetDescription(pet: PetObj) {
         Spacer(modifier = Modifier.height(30.dp))
         Text(text = "Gender: ${pet.pupGender}")
 
-        Column(modifier = Modifier.fillMaxWidth(),
-                verticalArrangement = Arrangement.Center,
-                horizontalAlignment = Alignment.CenterHorizontally,
+        Column(
+            modifier = Modifier.fillMaxWidth(),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             Button(
                 shape = CircleShape,
