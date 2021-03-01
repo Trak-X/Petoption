@@ -57,6 +57,6 @@ fun PetDetails(
 
 @Preview
 @Composable
-fun showPreview() {
+fun ShowPreview() {
     PetDetails(pet = PetRepo().cerberus, navigateBack = { /*TODO*/ })
 }

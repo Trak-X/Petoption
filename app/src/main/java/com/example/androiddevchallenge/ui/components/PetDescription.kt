@@ -86,6 +86,6 @@ fun PetDescription(pet: PetObj) {
 
 @Preview
 @Composable
-fun showPreviewDescription() {
+fun ShowPreviewDescription() {
     PetDescription(pet = PetRepo().cerberus)
 }
