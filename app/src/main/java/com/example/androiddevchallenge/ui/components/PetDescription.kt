@@ -1,6 +1,14 @@
 package com.example.androiddevchallenge.ui.components
 
-import androidx.compose.foundation.layout.*
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
@@ -16,16 +24,13 @@ import com.example.androiddevchallenge.db.PetObj
 import com.example.androiddevchallenge.db.PetRepo
 import com.example.androiddevchallenge.R
 
-
 @Composable
 fun PetDescription(pet: PetObj) {
     Column(modifier = Modifier
         .fillMaxSize()
         .padding(
             start = 10.dp,
-            end = 10.dp
-        )
-        ){
+            end = 10.dp)){
 
         Spacer(modifier = Modifier.height(24.dp))
         Text("About me")
