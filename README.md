@@ -4,7 +4,7 @@
 
 
 ## :scroll: Description
-The app contain an overview screen that displays a list of puppies, and a detail screen showing each puppy's details
+The app contains a list of mythical pups which are described in detail in a separate screen. Now go and choose your Champion. Who knows, this might actually turn into a game :)
 
 ## :bulb: Motivation and Context
 I would love to say "Thank you" to everyone that made Compose possible and inspire us to move further with better tooling
