@@ -5,6 +5,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigate
 import androidx.navigation.compose.rememberNavController
+import com.example.androiddevchallenge.db.PetRepo
+import com.example.androiddevchallenge.ui.screens.Dashboard
+import com.example.androiddevchallenge.ui.screens.PetDetails
 
 @Composable
 fun NavigationController() {
